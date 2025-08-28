@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.get('/', (req: Request, res: Response) => {
-  res.json({ message: 'Welcome to Node TypeScript API' });
+  res.json({ message: 'Welcome to Node TypeScript API on Vercel' });
 });
 
 // Error handling middleware
