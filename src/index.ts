@@ -18,6 +18,10 @@ app.get('/', (req: Request, res: Response) => {
   res.json({ message: 'Welcome to Node TypeScript API on Vercel' });
 });
 
+app.get('/api/test', (req: Request, res: Response) => {
+  res.json({ message: 'Test endpoint is working!' });
+});
+
 // Error handling middleware
 app.use(errorHandler);
 

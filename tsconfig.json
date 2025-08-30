@@ -6,7 +6,7 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
-    "esModuleInterop": true,
+    "esModuleInterop": true,  // Enables compatibility with CommonJS modules and allows use of 'import x from "y"' syntax
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
